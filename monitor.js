@@ -35,7 +35,7 @@ const main = async () => {
         { noAck: false }
       );
     }
-    /*
+
     // ** ------ BONUS ------*
     else {
       channel.consume(
@@ -53,7 +53,6 @@ const main = async () => {
         { noAck: false }
       );
     }
-    */
     channel.ack(message);
   });
   //channel.ack(message);
