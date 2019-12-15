@@ -30,6 +30,17 @@ npm install amqp
 pip install pika
 ```
 ## How it works
+First we configure RabbitMQ Authentication Credentials via Management Plugin and UI: [Here](https://www.thegeekstuff.com/2013/10/enable-rabbitmq-management-plugin/)
+or throgh rabbitmqctl tool 
+```
+$ rabbitmqctl add_user myUser myPass
+```
+then authenticate the user
+```
+$ rabbitmqctl authenticate_user 'a-username' 'a/password'
+```
+After adding new gues as the RabbitMQ only allows user:'guest' and password:'guest' in local machines, you can customize the user's access control from the Managment Plugin and UI so you can run RabbitMQ on a single machine connected with all other devices on the standard port of RabbitMQ '5672' via FireWall.
+
 Run the gateway service
 ```
 Gateway Runs Here
