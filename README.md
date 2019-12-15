@@ -18,18 +18,18 @@ The client send the action and filter required to the gateway, then the gateway 
 * Pika - Pika is a RabbitMQ (AMQP 0-9-1) client library for Python
 
 ### Installing
-* 1- Install Node.js. as you can use node package manager to setup your environment with other prerquisites.
-* 2- Install RabbitMQ with Erlang.
-* 3- [Install rethinkdb](https://rethinkdb.com/docs/install/windows/)
-* 4- Install AMQP Message Protocol Via "npm":
+* Install Node.js. as you can use node package manager to setup your environment with other prerquisites.
+* Install RabbitMQ with Erlang.
+* [Install rethinkdb](https://rethinkdb.com/docs/install/windows/)
+* Install AMQP Message Protocol Via "npm":
 ```
 npm install amqp
 ```
-* 5- Install  Pika as the Master implmented in Python via "pip":
+* Install  Pika as the Master implmented in Python via "pip":
 ```
 pip install pika
 ```
-### How it works
+## How it works
 Run the gateway service
 ```
 Gateway Runs Here
