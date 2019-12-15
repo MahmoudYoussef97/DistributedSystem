@@ -60,7 +60,26 @@ Sending RPC to the master here
 ```
 Master checks the statues of the slaves via the monitor so we need to run the Monitor.
 ```
-Run Monitor
+node Monitor.js
+```
+Response:
+```
+Awaiting RPC Request:
+```
+After sending a request of getting all Server status at the server
+```
+python main.py A
+```
+Monitor Response:
+```
+Awaiting RPC Request:
+Rquest Server A:
+```
+The Monitor then send consume in the queue from the slaves at Monitor Queue to get their statues and respond to the Master
+```
+Awaiting RPC Request:
+Rquest Server A:
+[2019-12-15T06:49:07.655Z] - Server: A, CPU: 95%
 ```
 After getting servers statues, now it is the time to distribute the tasks. First is to get the all records from the database.
 ```
