@@ -77,8 +77,8 @@ Final Result
 
 ## Authors
 
-* Mahmoud Youssef
-* Ahmed Nassar
-* Mahmoud Essam
-* Abdelrahman Salim
-* Mohamed Mahmoud
+* **Mahmoud Youssef** - [GitHub](https://github.com/MahmoudYoussef97)
+* **Ahmed Nassar** - [GitHub](https://github.com/AhmdNassar)
+* **Mahmoud Essam** - [GitHub](https://github.com/MahmoudEssam1456)
+* **Abdelrahman Salim** - [GitHub](https://github.com/AbdElrahmanMSalim)
+* **Mohamed Mahmoud** - [GitHub](https://github.com/MohamedMahmoudHassan)
