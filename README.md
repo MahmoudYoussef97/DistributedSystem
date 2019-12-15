@@ -7,6 +7,7 @@ We have some servers working together as they can appear to user as a single mac
 * Master
 * Monitor
 * Slave
+
 The client send the action and filter required to the gateway, then the gateway sends RPC message to the master with required action and filter, after that the master asks the monitor to get all server statues so it can know how to distribute the required action to the slaves. One slave is responsible for getting all records from the rethinkdb and reply to the master with the response. After getting the records of the database the master allocate each slave a portion of the action required by the client. Finally, the master aggregate all the results and send them back to the gateway as it can respond successfully to the client.
 ### Prerequisites
 * [RabbitMQ](https://www.rabbitmq.com) - The message broker used.
