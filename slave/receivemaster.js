@@ -69,7 +69,7 @@ const main = async () => {
   const opt = {
     credentials: require("amqplib").credentials.plain("test", "test")
   };
-  const amqpUrl = "amqp://192.168.1.7";
+  const amqpUrl = "amqp://192.168.43.70";
   const connection = await amqp.connect(amqpUrl, opt);
   const channel = await connection.createChannel();
 
