@@ -59,24 +59,24 @@ Gateway sends RPC to the Master with the required action and filter.
 Sending RPC to the master here
 ```
 Master checks the statues of the slaves via the monitor so we need to run the Monitor.
-```
+```console
 node Monitor.js
 ```
 Response:
-```
+```console
 Awaiting RPC Request:
 ```
 After sending a request of getting all Server status at the server
-```
+```console
 python main.py A
 ```
 Monitor Response:
-```
+```console
 Awaiting RPC Request:
 Rquest Server A:
 ```
 The Monitor then send consume in the queue from the slaves at Monitor Queue to get their statues and respond to the Master
-```
+```console
 Awaiting RPC Request:
 Rquest Server A:
 [2019-12-15T06:49:07.655Z] - Server: A, CPU: 95%
